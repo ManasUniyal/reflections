@@ -5,6 +5,6 @@ versions. By using the git init command, we create a normal repository into a gi
 
 Staging area
 Whenever we add a file to the staging area, git shows two classes of files, one which are 
-changes to be commited, these are the files which have been added to the staging area and
+changes to be commited. These are the files which have been added to the staging area and
 the other are untracked files. These are the files in which changes have been made since the 
-previous commit but have not yet been added to the staging area.
+previous commit but have not yet been added to the staging area. 
