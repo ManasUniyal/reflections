@@ -8,3 +8,9 @@ Whenever we add a file to the staging area, git shows two classes of files, one 
 changes to be commited. These are the files which have been added to the staging area and
 the other are untracked files. These are the files in which changes have been made since the 
 previous commit but have not yet been added to the staging area. 
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+Working directory is the repository in which we work. The files of the working directory that
+we add go to the staging area. The staging area facilitates us to add as many files as we want.
+Once the files have been added to the staging area, they can be commited into the repository.
