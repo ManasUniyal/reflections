@@ -1,0 +1,86 @@
+This is my first reflections file. 
+
+By using the fc command, the line which had difference in the two files was clearly visible
+and the changes could be made accordingly. The benefit of this is that one doesn't need to have
+a look at both the files simultaneously. Rather the difference is clearly visible.
+
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
+By having the track of previos version of the files, we can go to any of the previous states without 
+having to save any previous copies of the files separately. Sometimes, as a programmer we may want to
+experiment with the file and if it doesn't work out fine, we can revert back to the origional state 
+without having to code it once again.
+
+Properties of a VCS for code
+- Should be applicable for any editor.
+- Should be offline.
+- Saving mode(Auto save/self save)
+
+Manual commits in git
+The commits reflect the checkpoints of the version of the content at a point in time. Therefore, they 
+must be logical. So, they must be saved as per the user and not as per any fixed regulation like time,
+number of lines or a long pause. Moreover, each time a commit is made in git, it is accompanied by a
+name.
+
+Concept map of git
+Wikipedia, Dropbox, Git, SVN, CVN are all types of version control 
+and commit is a part of git.
+
+Using git to view history
+Each commit has an ID, author's name, date and description associated with it. Using the git diff command,
+we can view the difference between the two versions of the same content. git diff would be an "operates on"
+relationship on commits.
+
+How often to commit
+If the size of the commit is too small i.e. the commits are too frequent. Then, it will be difficult to 
+go to any of the previous versions of git. However, if the size of the commits are too large i.e. less 
+frequent, then the two versions may not make any logical connection. Therefore, as a good rule of thumb,
+commits shall be made whenever there is any change logical change. For example, correcting a typo and 
+fixing a bug are two logically different things and can be given different names.  
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+Pros-
+-Can create commits as per our need whenever there is any logical change. Thus, the two versions will have
+some meaning.
+-Each version can be given a separate name. Therefore, it will be easy for the user to understand the changes
+made in that commit.
+-Regulates the number of version of the content.
+-Gives the user more flexibility, as there is no rule when to make a commit.
+Cons-
+-Can be a loss when the user forgets to save the different versions of code.
+-Can create too many versions of the code.
+-It is possible that a version may have a code that is not executable as it may have been saved at a point in
+time when changes are being made to the code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+Version controls like Git are made specifically for the purpose of maintaining codes, where there can be 
+dependencies between two or more files. Whereas, this is not generally the case with documents. It is a key 
+difference between the version control systems.
+
+Cloning and exploring the repo
+To clone a repo use the command git clone followed by the repository's URL.
+git config --global color.ui auto
+Don't forget to use the down key. All the commits are not visible at once.
+
+How can you use the commands git log and git diff to view the history of files?
+git log can be used to view all the commits that have been made on the repository and git diff can be used to 
+compare two files. By comparing two immediate files, we can make out the immediate changes made between the 
+commits.
+
+Git errors and warning
+-Octopus is a stratergy in which one tries to combine various versions of a code togeather.
+-Head refers to the commit we are currently working on. If we go to previous version of the commit, the HEAD is 
+said to be detached. This is just a warning message and there is no wrong in the head being detached.
+-Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a 
+programming language called Haskell. It’s reserved for particularly surprising errors!
+
+How might using version control make you more confident to make changes that could break something?
+By using git, we maintain previous versions of the repository. Therefore, git facilitates one to get to any 
+previous versions of the files. Therefore, we don't have to memorise all the changes that we make. Rather we can
+be dependent on the VCS provided we make commits at the right moments. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to use git for managing my projects.
