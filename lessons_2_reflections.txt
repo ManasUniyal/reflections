@@ -28,3 +28,8 @@ The type is contained within the title and can be one of these types:
 Subjects should be no greater than 50 characters, should begin with a capital letter and do not
 end with a period. Use an imperative tone to describe what a commit does, rather than what it 
 did. For example, use change; not changed or changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Whenever we have to make a commit, the file(s) have to be added to the staging area. Then, we can
+compare the files in the staging area with the files in the latest commit using the command 
+git diff --staged. 
