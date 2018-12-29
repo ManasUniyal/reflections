@@ -39,3 +39,7 @@ branches help?
 When we want to make new experiments with the current version of the project or add new features to 
 the existing project without making any changes to the stable version of the project, git branch can 
 be used.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams clearly depict when and on which commit each branch was made. Having a visual of the 
+branches is the best way to understand them. 
