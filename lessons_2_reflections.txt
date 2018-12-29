@@ -55,3 +55,4 @@ Pros-
 -Takes less time and is reliable.
 Cons-
 -There is problem in automatic merging in case of conflict and the merges have to be resolved manually.
+-It is time consuming and prone to errors.
