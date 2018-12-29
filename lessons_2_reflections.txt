@@ -48,3 +48,10 @@ What is the result of merging two branches together? Why do we represent it in t
 When we merge two branches togeather, the two branches are replaced by a single branch having the files 
 equivalent to two branches. When two branches are merged, we represent them by a togeather with the same
 label.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros-
+-The user is not bothered about the merges that are obvious.
+-Takes less time and is reliable.
+Cons-
+-There is problem in automatic merging in case of conflict and the merges have to be resolved manually.
