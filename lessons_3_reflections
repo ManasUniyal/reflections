@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Working locally means that only we can view and edit the changes to the project. However, by hosting the
+repository online, we can get help whenever we are stuck or can implement a new feature by other's aid. 
+Moreover, when poeple working on a project can't share the same physical space, github is the best version
+control system to collaborate. Github even has a user friendly GUI.
