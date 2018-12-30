@@ -4,3 +4,10 @@ Working locally means that only we can view and edit the changes to the project.
 repository online, we can get help whenever we are stuck or can implement a new feature by other's aid. 
 Moreover, when poeple working on a project can't share the same physical space, github is the best version
 control system to collaborate. Github even has a user friendly GUI.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+Git pushes and pulls branches. Therefore, automatically updating with your remote repository would mean 
+that every branch is pulled, which is not what the user wants every time. Moreover, automatic updates would
+create too many commits which will be troublesome for the user. 
