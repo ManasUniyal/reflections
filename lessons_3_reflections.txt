@@ -23,3 +23,9 @@ the files on our local machines rather than github, git clone is used to accompl
 production branch where all the verfied and tested features are added. All other features are tested in other 
 branches. Branches ensure that the code always runs without breaking it. Whenever an experimental feature is 
 successfully achieved, it is added to the main branch. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Whenever a github repository is pushed or pulled such that there are 1 or more different commits in the local
+repository and remote repository, merging takes place on the basis of the local copy of remote. It allows us 
+to update the local copy of the remote branch without affecting the actual local version.
