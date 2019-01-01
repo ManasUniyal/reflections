@@ -29,3 +29,13 @@ What is the benefit of having a copy of the last known state of the remote store
 Whenever a github repository is pushed or pulled such that there are 1 or more different commits in the local
 repository and remote repository, merging takes place on the basis of the local copy of remote. It allows us 
 to update the local copy of the remote branch without affecting the actual local version.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Github is the best medium for collabration. But still, collabration can be done using external devices like 
+pendrives, hard-drives (which require physical presence) and e-mails.
+There is hardly any reason not to use git or github for collabration. Git with it's powerful tools can
+be used efficiently in any project. 
+Git can however be avoided in case of small projects where there is not too much of work or in the projects
+where every person is alloted a work that is independent of the other. 
