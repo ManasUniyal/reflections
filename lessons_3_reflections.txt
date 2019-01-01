@@ -11,3 +11,15 @@ with your remote repository?
 Git pushes and pulls branches. Therefore, automatically updating with your remote repository would mean 
 that every branch is pulled, which is not what the user wants every time. Moreover, automatic updates would
 create too many commits which will be troublesome for the user. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+-Forking is the process of copying a repository from someone's github account and pasting it directly into
+one's github account.Without forking, one has to use git clone and then git push in combination to load the 
+github repository on their own server. The term "forking" is relevant only for github.
+-Cloning is the process of making a remote available on the local machine. Most of the times we want to edit 
+the files on our local machines rather than github, git clone is used to accomplish this feature.
+-Branch is the name given to git commit. Branches are very useful. The master branch is generally the 
+production branch where all the verfied and tested features are added. All other features are tested in other 
+branches. Branches ensure that the code always runs without breaking it. Whenever an experimental feature is 
+successfully achieved, it is added to the main branch. 
